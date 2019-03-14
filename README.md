@@ -1,6 +1,6 @@
 # Agenda
 
-
+la idea es hacer un calendario en que se pueda añadir notas para planificar los estudios
 
 ## Integrantes del equipo
 
