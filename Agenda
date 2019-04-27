@@ -1,7 +1,9 @@
 //no es la parte final es solo lo del mes, es para tener algo puesto ya aquí
 #include <stdio.h>
 #include <time.h> 
-#define T 12
+#include <string.h>
+#define T 10
+#define N 51
 int main()
 {
 	//variables del programa
@@ -142,21 +144,22 @@ int main()
 		if (seleccion == 1)
 		{
 			printf("\nIngrese Mes: ");
-			scanf("%s", &mesP[T]);
-			//Pongo if porque la estructura Switch no funciona con una cadena como es el array de carácteres o string, y para conseguir leer los nombres de los meses
-			if (mesP[T] == 'enero'|| mesP[T] == '1'||mesP[T] == 'Enero'){mes = 0;}
-			if (mesP[T] == 'febrero'|| mesP[T] == '2'||mesP[T] == 'Febrero'){mes = 1;}
-			if (mesP[T] == 'marzo'|| mesP[T] == '3'||mesP[T] == 'Marzo'){mes = 2;}
-			if (mesP[T] == 'abril'|| mesP[T] == '4'||mesP[T] == 'Abril'){mes = 3;}
-			if (mesP[T] == 'mayo'|| mesP[T] == '5'||mesP[T] == 'Mayo'){mes = 4;}
-			if (mesP[T] == 'junio'|| mesP[T] == '6'||mesP[T] == 'Junio'){mes = 5;}
-			if (mesP[T] == 'julio'|| mesP[T] == '7'||mesP[T] == 'Julio'){mes = 6;}
-			if (mesP[T] == 'agosto'|| mesP[T] == '8'||mesP[T] == 'Agosto'){mes = 7;}
-			if (mesP[T] == 'septiembre'|| mesP[T] == '9'||mesP[T] == 'Septiembre'){mes = 8;}
-			if (mesP[T] == 'octubre'|| mesP[T] == '10'||mesP[T] == 'Octubre'){mes = 9;}
-			if (mesP[T] == 'noviembre'|| mesP[T] == '11'||mesP[T] == 'Noviembre'){mes = 10;}
-			if (mesP[T] == 'diciembre'|| mesP[T] == '12'||mesP[T] == 'Diciembre'){mes = 11;}
-
+			scanf ("%s", &mesP);
+			fflush (stdin);
+			
+			//Ponemos if porque ponerlo en un switch sería más complicado de lo que sería necesario 
+			if (strcmp(mesP,"enero")==0 || strcmp(mesP,"1")==0 || strcmp(mesP,"Enero")==0) mes = 0;
+			if (strcmp(mesP,"febrero")==0 || strcmp(mesP,"2")==0 || strcmp(mesP,"Febrero")==0) mes = 1;
+			if (strcmp(mesP,"marzo")==0 || strcmp(mesP,"3")==0 || strcmp(mesP,"Marzo")==0) mes = 2;
+			if (strcmp(mesP,"abril")==0 || strcmp(mesP,"4")==0 || strcmp(mesP,"Abril")==0) mes = 3;
+			if (strcmp(mesP,"mayo")==0 || strcmp(mesP,"5")==0 || strcmp(mesP,"Mayo")==0) mes = 4;
+			if (strcmp(mesP,"junio")==0 || strcmp(mesP,"6")==0 || strcmp(mesP,"Junio")==0) mes = 5;
+			if (strcmp(mesP,"julio")==0 || strcmp(mesP,"7")==0 || strcmp(mesP,"Julio")==0) mes = 6;
+			if (strcmp(mesP,"agosto")==0 || strcmp(mesP,"8")==0 || strcmp(mesP,"Agosto")==0) mes = 7;
+			if (strcmp(mesP,"septiembre")==0 || strcmp(mesP,"9")==0 || strcmp(mesP,"Septiembre")==0) mes = 8;
+			if (strcmp(mesP,"octubre")==0 || strcmp(mesP,"10")==0 || strcmp(mesP,"Octubre")==0) mes = 9;
+			if (strcmp(mesP,"noviembre")==0 || strcmp(mesP,"11")==0 || strcmp(mesP,"Noviembre")==0) mes = 10;
+			if (strcmp(mesP,"diciembre")==0 || strcmp(mesP,"12")==0 || strcmp(mesP,"Diciembre")==0) mes = 11;
 			printf ("\nIngrese Anio: ");
 			scanf("%d",&anio);
 			
