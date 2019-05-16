@@ -4,7 +4,6 @@
 void generarCalendario(int dia, int mes, int anio, Tfecha pDias[A])
 {
 	//declaro variables
-	char mesP [T];
 	int i,j,k,m,l,cont;				
 	int semana, moduloMes, febrero, total_mes;				
 	i=j=k=m=l=cont=0; 				

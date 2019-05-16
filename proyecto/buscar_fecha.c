@@ -6,9 +6,8 @@
 void buscadorNota(int dia, int mes, int anio, char prueba[N], Tfecha nDias[A])
 {
 	FILE *p_archivo;
-	char anno[N], fecha[N], listo[2], m[N], pDias[N], notas[N];
+	char anno[N], fecha[N], listo[2], m[N], pDias[N], notas[N], guion[N];
 	int encontrado = 0, dias, cont = 0, cDias, i, a = 0, b, existe = 0;
-	char basura[N];
 	
 	printf("\n");
 	sprintf(anno, "%d", anio);
@@ -35,8 +34,8 @@ void buscadorNota(int dia, int mes, int anio, char prueba[N], Tfecha nDias[A])
 		fscanf (p_archivo, "%s", &pDias);
 		sscanf(pDias, "%d", &dias );
 		while (encontrado != 1){//sirve para que te lea lo de después del guión
-			fscanf (p_archivo, "%s", &basura);
-			if(strcmp(basura,"-") == 0 || strcmp(basura,".end") == 0){encontrado = 1;}		
+			fscanf (p_archivo, "%s", &guion);
+			if(strcmp(guion,"-") == 0 || strcmp(guion,".end") == 0){encontrado = 1;}		
 		}
 		fgets(notas, sizeof(notas), p_archivo);
 		if (strcmp(pDias,";") != 0){
