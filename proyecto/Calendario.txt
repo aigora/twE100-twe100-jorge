@@ -1,8 +1,8 @@
 Normas_para_añadir_notas
 1 - Para añadir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
-espacio y el año en el que quieres añadir una nota, pero solo si el mes no estubiera.
-2 - después pones el día / mes/año guión y pones la nota que quieras.
-3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas si el mes nuevo.
+    espacio y el año en el que quieres añadir una nota, pero solo si el mes no estubiera.
+2 - después pones el día / mes/año guión y pones la nota que quieras, pero tienes que poner las fechas en orden para que funcione bien       el programa.
+3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas, pero solo si un mes nuevo que no esta en el         archivo.
 Diciembre 2018
 24 / 12/2018 - Nochebuena
 25 / 12/2018 - Navidad
