@@ -1,8 +1,8 @@
 Normas_para_añadir_notas
-1 - Para añadir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
-espacio y el año en el que quieres añadir una nota, pero solo si el mes no estubiera.
-2 - después pones el día / mes/año guión y pones la nota que quieras, pero tienes que poner las notas en orden para que el programa pueda leerlo.
-3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas si el mes nuevo.
+1) Si está el mes que quieres en el archivo, puedes pasar al paso 2. Pero si el mes del que quieres poner la nota no aparece en el fichero, lo que tienes que hacer primero es poner el mes con la primera en mayúscula espacio y el año, “Febrero 2020”. 
+2) Tienes que poner la nota en el siguiente renglón, pones el día en que quieres pones espacio - y espacio. Tras esto pones la nota, “2 - Cumpleaños de Carlos”, pero el archivo no puede leer las “ñ” o las letras con tildes.
+3) Si el mes existe no tienes porque hacer nada más, pero si el mes lo has tenido que poner tienes que pasar a la línea siguiente y poner “;”.
+
 
 Diciembre 2018
 24 - Nochebuena
