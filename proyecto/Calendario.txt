@@ -1,7 +1,7 @@
-Normas_para_añadir_notas
-1 - Para añadir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
-espacio y el año en el que quieres añadir una nota, pero solo si el mes no estubiera.
-2 - después pones el día / mes/año guión y pones la nota que quieras, pero tienes que poner las notas en orden para que el programa pueda leerlo.
+Normas_para_aÃ±adir_notas
+1 - Para aÃ±adir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
+espacio y el aÃ±o en el que quieres aÃ±adir una nota, pero solo si el mes no estubiera.
+2 - despuÃ©s pones el dÃ­a / mes/aÃ±o guiÃ³n y pones la nota que quieras, pero tienes que poner las notas en orden para que el programa pueda leerlo.
 3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas si el mes nuevo.
 
 Diciembre 2018
@@ -19,7 +19,7 @@ Febrero 2019
 31 - Va a ser que no
 ;
 Marzo 2019
-6 / 3/2019 - Miercoles de ceniza
+6 - Miercoles de ceniza
 ;
 Mayo 2019
 1 - Dia del trabajador
