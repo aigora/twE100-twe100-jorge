@@ -1,37 +1,34 @@
-Normas_para_aÃ±adir_notas
-1 - Para aÃ±adir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
-    espacio y el aÃ±o en el que quieres aÃ±adir una nota, pero solo si el mes no estubiera.
-2 - despuÃ©s pones el dÃ­a / mes/aÃ±o guiÃ³n y pones la nota que quieras, pero tienes que poner las fechas en orden para que funcione bien       el programa.
-3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas, pero solo si un mes nuevo que no esta en el         archivo.
+Normas_para_añadir_notas
+1 - Para añadir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
+espacio y el año en el que quieres añadir una nota, pero solo si el mes no estubiera.
+2 - después pones el día / mes/año guión y pones la nota que quieras, pero tienes que poner las notas en orden para que el programa pueda leerlo.
+3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas si el mes nuevo.
+
 Diciembre 2018
-24 / 12/2018 - Nochebuena
-25 / 12/2018 - Navidad
-31 / 12/2018 - Nochevieja
+24 - Nochebuena
+25 - Navidad
+31 - Nochevieja
 ;
 Enero 2019
-1 / 1/2019 - Nuevo anio
-6 / 1/2019 - Reyes
-32 / 1/2019 - No existe esta fecha
+1 - Nuevo anio
+6 - Reyes
 ;
 Febrero 2019
-14 / 2/2019 - San Valentin
-30 / 2/2019 - Va a ser que no
-31 / 2/2019 - Va a ser que no
+14 - San Valentin
+30 - Va a ser que no
+31 - Va a ser que no
 ;
 Marzo 2019
 6 / 3/2019 - Miercoles de ceniza
 ;
 Mayo 2019
-1 / 5/2019 - Dia del trabajador
-2 / 5/2019 - Dia de la Comunidad de Madrid
-3 / 5/2019 - No lectivo
-5 / 5/2019 - Dia de la madre
-15 / 5/2019 - San Isidro
+1 - Dia del trabajador
+2 - Dia de la Comunidad de Madrid
+3 - No lectivo
+13 - Examen Lab.Metodos
+15 - San Isidro
 ;
-Julio 2019
-26 / 7/2019 - Sale Fire Emblem Three Houses
-;
-Marzo 2019
-6 / 3/2019 - Miercoles de ceniza
+Marzo 2020
+6 - Miercoles de ceniza
 ;
 .end
