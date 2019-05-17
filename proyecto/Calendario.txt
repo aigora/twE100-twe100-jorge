@@ -1,11 +1,8 @@
-Normas_para_añadir_notas
-1 - Para añadir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
-espacio y el año en el que quieres añadir una nota, pero solo si el mes no estubiera.
-2 - después pones el día / mes/año guión y pones la nota que quieras.
+Normas_para_aÃ±adir_notas
+1 - Para aÃ±adir una nota tienes que poner el nombre del mes con la primera letra en mayuscula, 
+espacio y el aÃ±o en el que quieres aÃ±adir una nota, pero solo si el mes no estubiera.
+2 - despuÃ©s pones el dÃ­a / mes/aÃ±o guiÃ³n y pones la nota que quieras.
 3 - no te olvides de poner un punto y coma tras haber acabado de poner las nuevas notas si el mes nuevo.
-Febrero 2000
-12 / 2/2000 - cumpleanios
-;
 Diciembre 2018
 24 / 12/2018 - Nochebuena
 25 / 12/2018 - Navidad
@@ -14,9 +11,9 @@ Diciembre 2018
 Enero 2019
 1 / 1/2019 - Nuevo anio
 6 / 1/2019 - Reyes
+32 / 1/2019 - No existe esta fecha
 ;
 Febrero 2019
-12 / 2/2019 - cumpleanios
 14 / 2/2019 - San Valentin
 30 / 2/2019 - Va a ser que no
 31 / 2/2019 - Va a ser que no
@@ -28,22 +25,13 @@ Mayo 2019
 1 / 5/2019 - Dia del trabajador
 2 / 5/2019 - Dia de la Comunidad de Madrid
 3 / 5/2019 - No lectivo
-13 / 5/2019 - Examen Lab.Metodos
+5 / 5/2019 - Dia de la madre
 15 / 5/2019 - San Isidro
-17 / 5/2019 - Intentar entregar trabajo
-20 / 5/2019 - Examen Ampliación
-21 / 5/2019 - Examen fisica
-21 / 5/2019 - Examen estadistica
-22 / 5/2019 - Examen informatica
-22 / 5/2019 - Examen metodos
-23 / 5/2019 - Supuesta libertad
-30 / 5/2019 - Examen Lab.fisica
 ;
-Junio 2019
-7 / 6/2019 - Examen fisica
-13 / 6/2019 - Examen Ampliacion
+Julio 2019
+26 / 7/2019 - Sale Fire Emblem Three Houses
 ;
-Marzo 2020
+Marzo 2019
 6 / 3/2019 - Miercoles de ceniza
 ;
 .end
