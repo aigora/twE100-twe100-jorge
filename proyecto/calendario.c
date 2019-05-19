@@ -17,7 +17,7 @@ void generarCalendario(int dia, int mes, int anio, Tfecha pDias[A])
 		Color(0, 2); printf("\n\tEl verde infica el d\241a en que est\240s\n\n");
 		Color(0, 15);//este sirve para hacer que lo que continue recobre el color normal de la consola
 		
-		// calcular los años que son bisiestos para el mes de febrero. 
+		// calcular los aÃ±os que son bisiestos para el mes de febrero. 
 		if ((anio%4==0) && (anio%100!=0) || anio%400==0) {febrero=29;}
 		else {febrero=28;}
 		
@@ -119,33 +119,33 @@ void generarCalendario(int dia, int mes, int anio, Tfecha pDias[A])
 						
 				}
 }
-//función para buscar otra nota
+//funciÃ³n para buscar otra nota
 int menu(){
 	//declaro variables
 		int opcion;
-		printf("\n\nDesea Buscar otra Fecha? \n\t1=SI 0=NO\t>>> ");
+		printf("\n\n\250Desea Buscar otra Fecha? \n\t1=SI 0=NO\t>>> ");
 		scanf("%d",&opcion);
 		
 		while (opcion<0 || opcion>1)
 		{
 			printf("\nLo siento, tienes que poner o 1 o 0\n");
-			printf("Desea Buscar otra Fecha? \n\t1=SI 0=NO\t>>> ");
+			printf("\n\250Desea Buscar otra Fecha? \n\t1=SI 0=NO\t>>> ");
 			scanf("%d",&opcion);
 		}
 		return opcion;
 }
-//función que pide el mes, día y año.
+//funciÃ³n que pide el mes, dÃ­a y aÃ±o.
 void preguntarFecha(int *diasTeclado, int *mes, int *anio){
 	//declaro variables
 			char mesP[51];
-			//pido los valores de día, mes y año
+			//pido los valores de dÃ­a, mes y aÃ±o
 			printf ("\nIngrese un d\241a: ");
 			scanf("%d", diasTeclado); 
 			
 			printf("\nIngrese Mes: ");
 			scanf ("%s", &mesP);
 			fflush (stdin);
-			//Ponemos if porque ponerlo en un switch sería más complicado de lo que sería necesario 
+			//Ponemos if porque ponerlo en un switch serÃ­a mÃ¡s complicado de lo que serÃ­a necesario 
 			if (strcmp(mesP, "enero")==0 || strcmp(mesP, "1")==0 || strcmp( mesP,"Enero")==0) *mes = 0;
 			if (strcmp(mesP,"febrero")==0 || strcmp( mesP,"2")==0 || strcmp( mesP,"Febrero")==0) *mes = 1;
 			if (strcmp(mesP,"marzo")==0 || strcmp( mesP,"3")==0 || strcmp( mesP,"Marzo")==0) *mes = 2;
@@ -161,18 +161,18 @@ void preguntarFecha(int *diasTeclado, int *mes, int *anio){
 			printf ("\nIngrese A\244o: ");
 			scanf("%d", anio); 
 }
-void Color(int Background, int Text){ // Función para cambiar el color del fondo y/o pantalla
+void Color(int Background, int Text){ // FunciÃ³n para cambiar el color del fondo y/o pantalla
 
 	 HANDLE Console = GetStdHandle(STD_OUTPUT_HANDLE); 
 	 int    New_Color= Text + (Background * 16); 
 	
 	 SetConsoleTextAttribute(Console, New_Color); 
 }
-//función que busca las notas que hay para poder cambiar el color en el calendario del día que corresponde
+//funciÃ³n que busca las notas que hay para poder cambiar el color en el calendario del dÃ­a que corresponde
 int existeDiaCalendario(int i, Tfecha eDias[A]){
 	//declaro variables
 	int a = 0;
-	//busca los dás que hay notas
+	//busca los dÃ¡s que hay notas
 	for (a = 0; a < A; a++){
 			if (eDias[a].dia == i){
 				return i;
@@ -182,7 +182,7 @@ int existeDiaCalendario(int i, Tfecha eDias[A]){
 			}
 		}
 }
-//esta función sirve para que no se tenga que repetir esta misma estructura las tres veces que aparece, es decir, para hacer que quede más limpio
+//esta funciÃ³n sirve para que no se tenga que repetir esta misma estructura las tres veces que aparece, es decir, para hacer que quede mÃ¡s limpio
 void generadorSemana (int i, int semana){
 	if(i==8-semana||i==15-semana||i==22-semana||i==29-semana || i== 36-semana) printf("\n%d\t",i);
 	else	printf("%d\t",i);
