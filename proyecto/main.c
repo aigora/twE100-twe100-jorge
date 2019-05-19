@@ -26,7 +26,7 @@ int main()
 		buscadorNota(dia ,mes ,anio ,pMes, mDias);
 		generarCalendario(dia, mes, anio, mDias); 
 		if (mostrarNota (mDias, dia) != 1){
-			printf("\n\nNo hay nota en el d\241a que has pedido");
+			printf("\n\nNo hay ninguna nota en el d\241a que has pedido");
 		}
 
 		seleccion = menu();
